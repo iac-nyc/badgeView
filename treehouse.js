@@ -1,0 +1,3 @@
+$(document).ready(function () {let Me = "iftekharchowdhury",treehouse = "https://teamtreehouse.com/" + Me + ".json",n = $("#badges"),display = [],badgeCount = 0;$.getJSON(treehouse, function (Me) {let team = Me.badges;
+let points = Me.points.total;$.each(team, function (Me, team) {display += '<li><a href="' + team.url + '" target="_blank"><img src="' + team.icon_url + '" alt="' + team.name + '" title="' + team.name + '"/></a></li>';
+badgeCount++});n.append(display);$("#treehouse-count").append('I have earned <br>' + badgeCount + ' badges and ' + points +' points.');});});
