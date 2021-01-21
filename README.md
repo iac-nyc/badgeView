@@ -1,3 +1,7 @@
+```
+I no longer have subscription at Treehouse. This site will not retrieve any data from their server.
+```
+
 ###  https://iac-nyc.github.io/badgeView/
 ## Project Title: badgeView
 #### Project by: Iftekhar A Chowdhury
